@@ -49,6 +49,3 @@ Se han simulado cuatro tipos de señal de entrada y se ha observado el comportam
 
 ---
 
-## Conclusión
-
-El filtro SMA implementado funciona correctamente y es eficaz para eliminar ruido y suavizar señales, especialmente aquellas con transiciones bruscas. No requiere multiplicaciones (solo sumas y desplazamiento para dividir), lo que lo hace **eficiente para hardware digital** como FPGAs. El principal efecto secundario es un **retardo temporal**, típico de este tipo de filtros.
